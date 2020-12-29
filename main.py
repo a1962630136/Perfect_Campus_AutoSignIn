@@ -100,7 +100,7 @@ def GetUserJson(deptId,text,stuNum,userName,phone,guardianPhone,userId,customerI
 			"deptid": 62420,
 			"text": "教职工-公共课教学部-默认"
 		},
-		"areaStr": {"streetNumber":"","street":"新七大道","district":"浉河区","city":"信阳市","province":"河南省","town":"","pois":"信阳师范学院","lng":114.04613300000214 + random.random()/100000,"lat":32.15061303752275 + random.random()/100000,"address":"浉河区新七大道信阳师范学院","text":"河南省-信阳市","code":""},
+		"areaStr": {"streetNumber":"","street":"金马路","district":"澄迈县","city":"澄迈县","province":"海南省","town":"","pois":"澄迈县农村社会养老保险局","lng":110.01717 + random.random()/100000,"lat":19.736709 + random.random()/100000,"address":"澄迈县农村社会养老保险局","text":"海南省-澄迈县","code":""},
 		"reportdate": round(time.time()*1000),
 		"customerid": 19870,
 		"deptid": 62420,
