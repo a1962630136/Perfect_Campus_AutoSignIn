@@ -98,7 +98,7 @@ def GetUserJson(deptId,text,stuNum,userName,phone,guardianPhone,userId,customerI
 	"jsonData": {
 		"deptStr": {
 			"deptid": 62420,
-			"text": 教职工-公共课教学部-默认
+			"text": Text
 		},
 		"areaStr": {"streetNumber":"","street":"新七大道","district":"浉河区","city":"信阳市","province":"河南省","town":"","pois":"信阳师范学院","lng":114.04613300000214 + random.random()/100000,"lat":32.15061303752275 + random.random()/100000,"address":"浉河区新七大道信阳师范学院","text":"河南省-信阳市","code":""},
 		"reportdate": round(time.time()*1000),
