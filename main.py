@@ -97,19 +97,19 @@ def GetUserJson(deptId,text,stuNum,userName,phone,guardianPhone,userId,customerI
 	"method": "submitUpInfo",
 	"jsonData": {
 		"deptStr": {
-			"deptid": deptId,
-			"text": text
+			"deptid": 62420,
+			"text": 教职工-公共课教学部-默认
 		},
 		"areaStr": {"streetNumber":"","street":"新七大道","district":"浉河区","city":"信阳市","province":"河南省","town":"","pois":"信阳师范学院","lng":114.04613300000214 + random.random()/100000,"lat":32.15061303752275 + random.random()/100000,"address":"浉河区新七大道信阳师范学院","text":"河南省-信阳市","code":""},
 		"reportdate": round(time.time()*1000),
-		"customerid": customerId,
-		"deptid": deptId,
+		"customerid": 19870,
+		"deptid": 62420,
 		"source": "app",
 		"templateid": "pneumonia",
-		"stuNo": stuNum,
-		"username": userName,
-		"phonenum": phone,
-		"userid": userId,
+		"stuNo": 202000178,
+		"username": 邹铮铮,
+		"phonenum":18120272067,
+		"userid": 19942552,
 		"updatainfo": [{
 			"propertyname": "wendu",
 			"value": round(random.uniform(36.2,36.8),1)
@@ -142,13 +142,13 @@ def GetUserJson(deptId,text,stuNum,userName,phone,guardianPhone,userId,customerI
 			"value": "否"
 		}, {
 			"propertyname": "ownPhone",
-			"value": phone
+			"value": 18120272067
 		}, {
 			"propertyname": "emergencyContact",
 			"value": "监护人"
 		}, {
 			"propertyname": "mergencyPeoplePhone",
-			"value": guardianPhone
+			"value": 18120272067
 		}],
 		"gpsType": 0,
 		"token": token
